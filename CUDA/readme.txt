@@ -1,0 +1,1 @@
+nvcc file_name.cu -o vec_add -gencode arch=compute_20,code=sm_20 -gencode arch=compute_35,code=sm_35
